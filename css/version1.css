@@ -1,5 +1,5 @@
 body {
-  font: 12px/1.5 'Raleway', Helvetica, sans-serif;
+  font: 12px/1.5 'Raleway', sans-serif;
   padding: 0;
   margin: 0;
   background-color: #f5eded;
@@ -13,7 +13,7 @@ body {
 
 /* Global - selettori che si possono ripetere */
 h1 {
-  font-family: 'Playfair display black', Georgia, serif;
+  font-family: 'Playfair display black', serif;
 }
 
 .container {
@@ -99,7 +99,7 @@ header #branding {
 header #branding h1 {
   margin: 0;
   padding-top: 20px;
-  font-family: 'Playfair display black', georgia, serif;
+  font-family: 'Playfair display black', serif;
   font-size: 30px;
 }
 
@@ -114,14 +114,14 @@ header #social_icons {
 
 /* Showcase - call to action */
 #showcase {
-  min-height: 325px;
+  min-height: 300px;
   background-color: #e7c2ca;
   background-image: url() no-repeat;
   text-align: center;
 }
 
 #showcase h1 {
-  font: 30px/1.5 'Playfair display black', Georgia, serif;
+  font: 30px/1.5 'Playfair display black', serif;
   color: #af5166;
   margin-top: 80px;
 }
@@ -147,7 +147,7 @@ header #social_icons {
 }
 
 .intro_title {
-  font: 40px 'Playfair display black', Georgia, serif;
+  font: 40px 'Playfair display black', serif;
   color: #e7c2ca;
   text-align: left;
 }
@@ -156,7 +156,7 @@ header #social_icons {
     z-index: 1;
     font-size: 40px;
     color: #af5166;
-    transform: rotate(-30deg);
+    transform: rotate(-35deg);
     margin: -20px 2px;
     background-color: #f5eded;
     width: 30px;
@@ -215,7 +215,7 @@ header #social_icons {
   position: relative;
   padding: 5px;
   margin-bottom: 20px;
-  font: 30px 'Playfair display black', Georgia, Serif;
+  font: 30px 'Playfair display black', serif;
   color: #af5166;
   font-style: italic;
   text-align: center;
@@ -230,7 +230,7 @@ header #social_icons {
 }
 
 .middle {
-  font: 14px 'Raleway', Helvetica, sans-serif;
+  font: 14px 'Raleway', sans-serif;
   color: #3d3d3d;
   position: absolute;
   top: 0;
@@ -666,13 +666,6 @@ article#blogpost img:hover {
 }
 
 
-
-
-
-
-
-
-
 /* Prova spinner */
 #myDiv {
   display: none;
@@ -697,7 +690,7 @@ article#blogpost img:hover {
 }
 
 .spinner_text {
-  font: 20px 'Playfair Display black';
+  font: 20px 'Playfair Display black', serif;
   color: #e7c2ca;
   text-align: center;
   position: absolute;
