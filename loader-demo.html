@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A little self introduction website explaining who I am and what do I do in my life">
+    <meta name="keywords" content="personal website, professional resume, personal blog, fashion, art, design, lifestyle">
+    <meta name="author" content="Elena Lin">
+    <title>♕ ElinMiao - Loader</title>
+    <link rel="stylesheet" href="css\version1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet'>
+  </head>
+
+  <body onload="myFunction()" style="margin:0;">
+
+<div id="loadercont">
+  <div class="spinner">
+  </div>
+  <div class="spinner_text">EM.
+  </div>
+</div>
+
+    <div style="display:none;" id="myDiv" class="bigcont">
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>ElinMiao<span class="highlight">.</span></h1>
+        </div>
+        <div id="social_icons">
+          <ul>
+          <li><a target="_blank" href="#" class="fa fa-facebook"></a></li>
+          <li><a target="_blank" href="#" class="fa fa-instagram"></a></li>
+          <li><a target="_blank" href="#" class="fa fa-twitter"></a></li>
+          <li><a target="_blank" href="#" class="fa fa-linkedin"></a></li>
+          <li><a target="_blank" href="#" class="fa fa-wechat"></a></li>
+        </ul>
+        </div><br>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="journal.html">JOURNAL</a></li>
+            <li><a href="contacts.html">CONTACTS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="loadsec">
+      <div class="container">
+        <h1>Yes, I wanted my crown to spin.</h1>
+        <p class="usubtitle"> There's nothing interesting here, just a demo page :)</p>
+        <img src="img\loader.gif">
+      </div>
+
+
+    </section>
+
+    <footer>
+      <div class="container">
+      Elinmiao - by Elena Lin. Copywright &copy; 2019
+      </div>
+    </footer>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loadercont").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+
+  </body>
+</html>
