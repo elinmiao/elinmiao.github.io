@@ -11,7 +11,7 @@ body {
   background-color: #a1cbdd;
 }
 
-/* Global - selettori che si possono ripetere */
+/* Global */
 h1 {
   font-family: 'Playfair display black', serif;
 }
@@ -112,7 +112,7 @@ header #social_icons {
   float: right;
 }
 
-/* Showcase - call to action */
+/* Showcase - call to action//landing on the loader demo page */
 #showcase {
   min-height: 300px;
   background-color: #e7c2ca;
@@ -139,7 +139,6 @@ header #social_icons {
   cursor: pointer;
   color: #af5166;
 }
-
 
 /* Mini self-introduction - crowned avatar */
 #introduction p {
@@ -664,7 +663,6 @@ article#blogpost img:hover {
     left: 75px;
   }
 }
-
 
 /* Prova spinner */
 #myDiv {
