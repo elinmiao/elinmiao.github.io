@@ -1,0 +1,70 @@
+Elena Lin 831260
+
+
+
+
+	Breve introduzione sul progetto
+
+ElinMiao, il cui nome prende spunto dall’omonimo profilo instagram, nasce come un sito web parte di un ipotetico progetto di personal branding che ha come scopo la definizione e l’accrescimento della mia presenza online e social. 
+
+------------------
+
+	Struttura del sito e considerazioni generali
+
+Il sito è strutturato in modo molto semplice e si compone di 6 pagine html complessive.
+Dalla homepage si accede a 3 sezioni del sito tramite l’apposito menù: galleria, diario personale e contatti, mentre le restanti due pagine sono puramente dimostrative.
+Il sito è ideato e impostato per essere dinamico, responsive e mobile friendly.
+Ogni pagina ha il tasto per cambiare il foglio di stile in quello alternativo.
+I font utilizzati sono ‘Raleway’ per il testo normale e ‘Playfair Display’ per la maggior parte dei titoli e del testo rilevante; entrambi sono google fonts e sono stati linkati in ogni pagina html.
+Per completezza, ma senza nessuna competenza specifica in ambito SEO, ho inserito alcuni meta tag per l’indicizzazione e il posizionamento del sito nei motori di ricerca.
+
+------------------
+
+	Header e footer
+
+L’header e il footer sono le parti in comune di tutte le pagine.
+L’header è composto da tre parti: sulla sinistra troviamo il logo del sito, mentre sulla destra ci sono il menù che contiene oltre che le sezioni del sito anche il tasto per cambiare foglio di stile, e le icone social per cui ho usato il web font ‘Font Awesome’.
+Il footer, invece, è semplice ed essenziale, una barra posizionata in basso che rimane fissa anche allo scroll della pagina.
+
+------------------
+
+	Homepage
+
+La homepage è composta da 4 parti.
+-	Lo showcase, immediatamente posto sotto all’header, contiene uno slogan e un link che dovrebbe essere una sorta di ‘call to action’, ma che in questo caso è usato in modo funzionale per collegarsi alla demo dello spinner utilizzato come loader.
+-	Una intro che contiene un’immagine avatar con il particolare della coroncina sull’angolo in alto a sinistra e qualche riga di presentazione. 
+-	Una sezione last post in cui si trovano i post in evidenza. Il titolo e il link all’articolo si trovano nell’overlay delle immagini che si attiva al passaggio del mouse.
+-	L’ultima parte è uno spazio dedicato alle citazioni, Il tag utilizzato per regolarne lo stile è <blockquote>, mentre sia per le virgolette decorative che per l’autore della citazione ho utilizzato gli attributi ::before e ::after.
+
+------------------
+
+	Gallery
+
+La sezione gallery contiene una serie di miniature di immagini che al click aprono nello spazio sottostante un tab contenente la stessa immagine, ma in dimensioni maggiori, il titolo dell’immagine e il tasto x che permette di chiuderlo. 
+In questo caso il codice è impostato in modo che la larghezza massima dell’immagine ingrandita corrisponda alla larghezza del container.
+
+------------------
+
+	Journal
+La sezione journal funge da masterlist per tutti gli articoli pubblicati.
+La struttura non è a elenco, ma si ispira al layout masonry che regola i contenuti dei siti come Pinterest e li dispone in colonne cercando di occupare tutto lo spazio disponibile.
+Per riuscire a realizzare questo tipo di struttura ho utilizzato l’attributo css3 ‘column’.
+Ogni box è una preview di un articolo che contiene un’immagine, il titolo, una breve caption e il link per aprire la pagina del post.
+
+------------------
+
+	Contacts 
+
+Come dice il titolo, in questa pagina troviamo i contatti, gli indirizzi mail che permettono al visitatore di scrivere un messaggio. I link degli indirizzi email aprono in automatico l’applicazione Microsoft Outlook (mailto:).
+
+------------------
+
+	Loader
+
+Questa pagina permette di visualizzare lo spinner personalizzato per il caricamento delle pagine. Il codice javascript permette di simulare un caricamento di 3 secondi prima di aprire il contenuto sottostante.
+
+------------------
+
+	Blogpost
+
+Tutti i link dei post del sito portano a questa pagina, che è esemplificativa di come appare un post.
